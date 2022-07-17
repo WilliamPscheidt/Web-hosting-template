@@ -1,0 +1,95 @@
+.navbar-container {
+    width: 100%;
+    height: 65px;
+    background-color: #fff;
+    box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-container .navbar-internal {
+    width: 70%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-container .navbar-internal .mobile-menu {
+    display: none;
+}
+
+.navbar-container .navbar-internal .mobile-menu .menu-icon {
+    width: 32px;
+    cursor: pointer;
+}
+
+.navbar-container .navbar-internal .logo {
+    font-weight: 300;
+}
+
+.navbar-container .navbar-internal .negrito {
+    font-weight: 800;
+}
+
+.navbar-container .navbar-internal .div-menus {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-container .navbar-internal .div-menus .menus {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-container .navbar-internal .div-menus .menus .option {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 25px;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.navbar-container .navbar-internal .div-menus .menus .icon {
+    margin-left: 3px;
+}
+
+.navbar-container .navbar-internal .div-menus #active {
+    padding: 7px 15px;
+    border: 2px solid #266EF9;
+    border-bottom: 5px solid #266EF9;
+    background-color: #0A2D73;
+    color: white;
+}
+
+.navbar-container .navbar-internal .div-menus .btn-register {
+    margin-right: 10px;
+    padding: 8px 20px;
+    font-weight: 400;
+    border-radius: 4px;
+    border: 3px solid rgba(0, 0, 0, 0.014);
+    cursor: pointer;
+}
+
+.navbar-container .navbar-internal .div-menus .btn-login {
+    padding: 11px 20px;
+    font-weight: 400;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    background-color: #266EF9;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar-container .navbar-internal .div-menus {
+        display: none;
+    }
+
+    .navbar-container .navbar-internal .mobile-menu {
+        display: flex;
+    }
+} 
