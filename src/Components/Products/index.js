@@ -39,9 +39,7 @@ function Products() {
                     <button className='btn'>Contratar VPS</button>
                 </div>
             </div>
-                
         </div>
-
     </div>
   )
 }
