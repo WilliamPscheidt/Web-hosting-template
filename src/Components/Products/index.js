@@ -12,30 +12,31 @@ function Products() {
   return (
     <div className="products">
         <div className="products-internal">
-            <h1>Os nossos Valores</h1>
-            <div className="border"></div>
             <img src={SVGWaves} className="waves"/>
             <div className="cards">
                 <div className="card">
                     <img src={SVGHtml} className="icon-card"/>
-                    <span>Servidor de Hospedagem</span>
-                    <span>A partir de</span>
-                    <h3>R$16,99</h3>
-                    <button>Ver Planos</button>
+                    <span className='textoA'>Planos de</span>
+                    <span className='texto'>Hospedagem</span>
+                    <span className='subtexto'>A partir de</span>
+                    <h3 className='valor'>R$16,99</h3>
+                    <button className='btn'>Ver Planos</button>
                 </div>
                 <div className="card">
                     <img src={SVGStar} className="icon-card"/>
-                    <span>Registro de Domínio</span>
-                    <span>A partir de</span>
-                    <h3>R$16,99</h3>
-                    <button>Registrar Domínio</button>
+                    <span className='textoA'>Registro de</span>
+                    <span className='texto'>Domínio</span>
+                    <span className='subtexto'>A partir de</span>
+                    <h3 className='valor'>R$16,99</h3>
+                    <button className='btn'>Registrar Domínio</button>
                 </div>
                 <div className="card">
                     <img src={SVGCpu} className="icon-card"/>
-                    <span>Servidor VPS</span>
-                    <span>A partir de</span>
-                    <h3>R$16,99</h3>
-                    <button>Contratar VPS</button>
+                    <span className='textoA'>Servidor VPS</span>
+                    <span className='texto'>A partir de</span>
+                    <span className='subtexto'>A partir de</span>
+                    <h3 className='valor'>R$16,99</h3>
+                    <button className='btn'>Contratar VPS</button>
                 </div>
             </div>
                 

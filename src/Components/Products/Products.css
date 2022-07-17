@@ -13,16 +13,18 @@
 }
 
 .products .products-internal .border {
+    position: relative;
+    left: 5px;
     width: 242px;
     margin-top: 3px;
     height: 6px;
     background: radial-gradient(100.88% 115937.98% at 100% 50%, #FFFFFF 34.26%, rgba(0, 87, 255, 0.49) 100%);
-    z-index: 9999999;
+    z-index: 99;
 }
 
 .products .products-internal .waves {
-    margin-top: 100px;
-    z-index: 1;
+    margin-top: 10px;
+    z-index: 0;
 }
 
 .products .products-internal .cards {
@@ -43,11 +45,47 @@
     border-radius: 4px;
     margin: 20px;
     background-color: #fff;
-    width: 290px;
-    height: 400px;
+    width: 230px;
+    height: 350px;
     z-index: 999;
 }
 
 .products .products-internal .cards .card .icon-card {
     width: 80px;
+}
+
+.products .products-internal .cards .card .textoA {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.products .products-internal .cards .card .texto {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.products .products-internal .cards .card .subtexto {
+    font-weight: 100;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.products .products-internal .cards .card .valor {
+    font-weight: 700;
+    font-size: 32px;
+    color: #266EF9;
+}
+
+.products .products-internal .cards .card .btn {
+    position: relative;
+    top: 45px;
+    background: #266EF9;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 80%;
+    cursor: pointer;
 }
