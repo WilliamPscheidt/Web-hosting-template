@@ -11,7 +11,7 @@ function Navbar() {
         <h1 className='logo'>Cyber<b className='negrito'>Host</b></h1>
         <div className='div-menus'>
           <ul className='menus'>
-            <li className='option' id='active'>Início</li>
+            <li className='option'>Início</li>
             <li className='option'>Produtos <img src={SVGArrowDown} className="icon" /></li>
             <li className='option'>Suporte</li>
           </ul>
