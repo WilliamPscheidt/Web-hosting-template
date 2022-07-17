@@ -1,0 +1,78 @@
+.blog {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog .border {
+    position: relative;
+    left: 30px;
+    width: 242px;
+    margin-top: 3px;
+    height: 20px;
+    background: radial-gradient(100.88% 115937.98% at 100% 50%, #FFFFFF 34.26%, rgba(0, 87, 255, 0.49) 100%);
+    margin-bottom: 20px
+}
+
+.blog .container {
+    width: 100%;
+    background-color: #BCBCBD80;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog .container .container-internal {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog .container .container-internal .card {
+    border-radius: 20px;
+    padding: 15px;
+    width: 350px;
+    height: 260px;
+    background-color: #fff;
+}
+
+.blog .container .container-internal .card .titulo {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.blog .container .container-internal .card .subtexto {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.blog .container .container-internal .card .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    float: right;
+    padding: 8px 20px;
+    background: #0A5CFB;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+
+.blog .container .container-internal .card .icon {
+    margin-left: 2px;
+    position: relative;
+    top: 0.8px;
+    width: 15px;
+}
+
+
